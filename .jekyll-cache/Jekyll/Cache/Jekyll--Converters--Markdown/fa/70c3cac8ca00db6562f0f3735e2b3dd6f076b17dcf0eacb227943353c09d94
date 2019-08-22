@@ -1,0 +1,25 @@
+I"B<p>##前言</p>
+
+<p>今天突然想搭建一个github博客，于是参考了别人的教程，在git clone中发现，我的下载速度为什么这么慢？？？ emmm
+<img src="img/20190822/old.jpg" alt="" />
+然后在网上查找问题，果然还是墙的原因，我默默的打开科学上网，怎么还是这么慢！！！
+#升级解决办法：
+1.打开本地hosts文件</p>
+<blockquote>
+  <p>windows C:\Windows\System32\drivers\etc</p>
+</blockquote>
+
+<blockquote>
+  <p>mac: sudo vim /etc/hosts</p>
+</blockquote>
+
+<p>2.添加以下内容</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">    <span class="mf">192.30</span><span class="o">.</span><span class="mf">253.112</span> <span class="n">github</span><span class="p">.</span><span class="nf">com</span>
+    <span class="mf">151.101</span><span class="o">.</span><span class="mf">185.194</span> <span class="n">github</span><span class="p">.</span><span class="nf">global</span><span class="p">.</span><span class="nf">ssl</span><span class="p">.</span><span class="nf">fastly</span><span class="p">.</span><span class="nf">net</span></code></pre></figure>
+
+<ul>
+  <li><a href="https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B">点击这里查看步骤</a></li>
+</ul>
+
+:ET
